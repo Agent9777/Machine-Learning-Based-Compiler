@@ -1,0 +1,8802 @@
+[
+  {
+    "code": "k = k + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "i = i * i;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "y = (int)y;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "int temp=0; y = y - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "y = y * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "k = k + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "i = !!i;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; for(int k=0; k<n; k++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "k = k - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "k = k % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "k = k - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; i = i * i;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "if(y == y) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "y = y + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "x = x;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "y = (int)y; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "int temp=0; y = y * y;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "int temp=0; y = y - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "x = x + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "j = !!j;",
+    "label": "double_negation"
+  },
+  {
+    "code": "y = !!y; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "y = k; k = y; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "i = i - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "i = i * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "int temp=0; k = k / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "k = k * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "j = j + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "for(int j=0; j<n; j++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "i = i;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "x = x * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "for(int y=0; y<n; y++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "k = (int)k; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "j = j * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "i = i * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "x = x * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "x = (int)x; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "for(int j=0; j<n; j++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "x = x * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "i = i * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "k = (int)k;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "int temp=0; j = j + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "y = y % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "y = y;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "if(y == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "int temp=0; j = j * j; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "int temp=0; x = x * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; x = x * x;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "int temp=0; i = (i * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; x = x - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "int temp=0; y = !!y; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "i = (i * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "x = arr[i] + arr[i];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "x = x + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "if(j == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "k = k + k; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "x = x + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "k = !!k;",
+    "label": "double_negation"
+  },
+  {
+    "code": "k = k * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "y = y - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "y = !!y;",
+    "label": "double_negation"
+  },
+  {
+    "code": "k = k - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; k = k * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "k = !!k;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; k = k + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; y = y + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "j = j - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "k = k + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "j = j; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "k = (k * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; k = k - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "i = k; k = i;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; y = y * y; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = x - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "if(k == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "i = k; k = i;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; x = x + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "j = j + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "if(y == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "x = nums[y] + a[y];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "y = y % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "x = arr[x] + arr[x];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "x = nums[y] + a[y];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "i = y; y = i; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "k = (k * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; j = j % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "int temp=0; j = j + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; k = k - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "k = k + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "x = x - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; for(int y=0; y<n; y++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "j = j * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "k = k - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "x = !!x;",
+    "label": "double_negation"
+  },
+  {
+    "code": "x = x + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "j = j - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "x = x * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "i = i + i;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = x % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "x = x * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "x = (int)x;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "x = (x * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "i = i * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; if(k == k) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "k = (k * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "j = j + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "k = k % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "i = i + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "j = (j * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "i = i / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "i = k; k = i;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; k = k;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; for(int y=0; y<n; y++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "k = k + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "x = x + x; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "int temp=0; y = y - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "x = x / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; k = k - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "int temp=0; i = i + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "if(j == j) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "y = (int)y;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "int temp=0; i = i - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "j = (int)j;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "k = k + k; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "y = !!y;",
+    "label": "double_negation"
+  },
+  {
+    "code": "x = (int)x;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "j = j / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "j = (int)j;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "x = (x * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "j = j * j;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = x / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "j = j * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "k = k * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "x = i; i = x; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "i = i + i;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "j = y; y = j;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "for(int j=0; j<n; j++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "x = x; x = x;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; j = (int)j; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "int temp=0; i = i + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "if(x == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "i = i * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "if(y == y) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "if(j == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "y = (int)y;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "y = !!y;",
+    "label": "double_negation"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "x = (x * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "k = k - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; i = i - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "for(int y=0; y<n; y++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "for(int j=0; j<n; j++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "j = y; y = j; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "y = y + y; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = x % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "y = y * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "if(k == k) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; x = x * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; y = y; y = y;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; x = i; i = x; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "k = k * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "j = j % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "i = i;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "j = j * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; i = i / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "if(k == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "j = x; x = j;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "k = k - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "i = i * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; i = (i * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "y = y / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; y = y + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "x = x + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "j = j * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "x = (x * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "x = i; i = x;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "k = k + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "k = k * k;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "y = j; j = y;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "y = y + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "int temp=0; j = j % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "k = (k * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "k = k % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "j = j * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "int temp=0; x = x * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; k = (k * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; k = k * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(y == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "x = x * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "y = y * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "i = i * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; y = y + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "x = x * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "i = !!i;",
+    "label": "double_negation"
+  },
+  {
+    "code": "if(i == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "k = k * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; x = (x * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "y = y / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "for(int y=0; y<n; y++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "j = x; x = j;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "if(i == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "i = i / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "x = nums[k] + arr[k];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; if(j == j) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "y = y / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "for(int j=0; j<n; j++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "i = i / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "x = x * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "j = j;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; x = x - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "i = i - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "x = (x * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "k = (k * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; j = j * j;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "int temp=0; x = x + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "k = k + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "i = i + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "j = j + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "int temp=0; if(j == j) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "i = i + i;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "if(i == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "if(y == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "if(y == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "int temp=0; x = x; x = x; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "i = i + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "x = x + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "k = i; i = k;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "y = y + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "y = y + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "k = k * k;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "int temp=0; j = j * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "int temp=0; if(y == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "x = !!x;",
+    "label": "double_negation"
+  },
+  {
+    "code": "j = j * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "if(y == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "int temp=0; k = k / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; i = i * i;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "k = k + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "j = j * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "x = x / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "x = !!x;",
+    "label": "double_negation"
+  },
+  {
+    "code": "y = y * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "x = x + x;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "j = j / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "j = j + j;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = !!x; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "k = (k * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "i = i * i;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "for(int j=0; j<n; j++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "y = y / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "y = y + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "y = y * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "x = a[k] + arr[k];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "y = y + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; y = (int)y;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "j = (j * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "x = nums[y] + arr[y];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "x = arr[i] + arr[i];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "for(int j=0; j<n; j++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "if(x == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "int temp=0; x = x + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "y = y * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "j = k; k = j; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "x = x - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "y = y + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "j = j % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "i = i * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "x = nums[x] + nums[x]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "if(j == j) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "k = k * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; k = k - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; y = y * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; k = k;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "k = k + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "k = k * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "y = y + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "int temp=0; k = k * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; j = j; j = j;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "k = (k * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "j = j * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "y = y / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "i = i + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "i = i % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "i = i / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "k = k + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; i = i + i;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "j = (int)j;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "j = j % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "x = x * x; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "k = k + k; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "y = !!y;",
+    "label": "double_negation"
+  },
+  {
+    "code": "for(int j=0; j<n; j++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "i = i * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "x = arr[j] + nums[j]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; i = i; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "x = arr[j] + arr[j];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "j = j * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "y = y * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "i = i % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "k = k * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "i = y; y = i;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; if(y == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "int temp=0; x = a[k] + nums[k];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "k = (int)k;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "x = x % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "if(k == k) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "j = j - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "i = i * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "k = k + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "j = (j * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "j = j * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "x = x + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "x = x - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "i = i - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "k = (k * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; if(y == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "k = !!k;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; j = j * j;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = nums[y] + nums[y];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "j = j / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "if(y == y) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; for(int k=0; k<n; k++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "x = nums[i] + arr[i];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; y = y * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "k = (int)k;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "j = (int)j;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "i = i - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "x = a[x] + arr[x]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "y = y - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "x = x - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "x = x * x; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = x * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(x == x) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; j = (int)j; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "k = k * k; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "int temp=0; j = j % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "x = a[j] + a[j];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "i = i % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "x = x * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "x = (x * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "x = x / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "x = x % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "k = (k * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; k = k - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "k = (k * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "j = (int)j;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "int temp=0; x = x % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "j = (int)j;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "int temp=0; j = j + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "int temp=0; i = i * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; y = y * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "y = j; j = y;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "j = (int)j; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "x = (x * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; i = i; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "k = k * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "k = k - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "y = y / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "y = (int)y; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "k = k - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "x = arr[x] + arr[x]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "k = k * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "if(x == x) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "y = y + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "j = !!j;",
+    "label": "double_negation"
+  },
+  {
+    "code": "y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "x = x * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "j = j / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "i = i;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "k = k / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "x = (int)x; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "y = (y * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "i = i + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "if(y == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "j = j - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; y = y + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "x = x * x; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "j = j; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "j = j * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "x = x - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "x = x - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "i = i * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "int temp=0; x = (x * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; y = (y * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "for(int j=0; j<n; j++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "j = j * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "for(int i=0; i<n; i++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "j = j * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "j = j - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "j = j + j;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = nums[j] + arr[j]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "x = x; x = x;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "j = j + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "k = !!k; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "k = k * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "j = j + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "y = (int)y; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "if(j == j) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "j = j - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "int temp=0; x = x; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "i = i; i = i;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "j = j + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "for(int j=0; j<n; j++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "y = y * y; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = x;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "if(j == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "x = x * x;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "j = j * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "i = i * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "x = nums[x] + a[x]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "if(x == x) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "x = i; i = x;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "j = j % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "int temp=0; i = i * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "i = i % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "int temp=0; j = j + j;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "k = k + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; j = j + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "y = x; x = y;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "k = !!k;",
+    "label": "double_negation"
+  },
+  {
+    "code": "i = i + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "y = y * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "y = y; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; j = j * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "k = k * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "int temp=0; k = k + k; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = nums[j] + a[j]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "i = !!i;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; i = i;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "k = k / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; i = i * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; if(x == x) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "y = y * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "i = i + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "i = (i * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "k = k; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; y = (int)y;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "k = k + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "y = (int)y;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "i = i * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; if(j == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "i = i;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; x = a[k] + a[k]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "j = j - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "k = k * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(i == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "i = i * i;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = arr[y] + nums[y];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "j = j - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "k = k * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "k = k + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "x = (int)x;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "j = j + j;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "int temp=0; if(j == j) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "y = y * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "y = !!y;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; j = j * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "i = i * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; y = (y * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "k = k + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "j = j; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "y = y / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "y = y - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "int temp=0; i = i; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "k = (k * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; y = y + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "y = (int)y; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "x = arr[j] + a[j];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "k = !!k; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; for(int y=0; y<n; y++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "if(i == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "k = k * k;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "int temp=0; k = k * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "y = y * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "x = x - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "i = i - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "y = y + y; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "y = y;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "x = x * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "x = arr[i] + arr[i];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "y = y * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "int temp=0; y = y;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "j = j * j;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "k = i; i = k; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "x = x - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "int temp=0; k = k + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; y = y * y; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "for(int i=0; i<n; i++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "i = i / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "if(i == i) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "j = j + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "y = y;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; x = x - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "if(j == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "i = i + i;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "i = i + i; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "i = i * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "j = j * j; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "i = i * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "int temp=0; k = k + k; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "k = k * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "i = !!i; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; if(x == x) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "k = k * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "j = j - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "y = !!y; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; y = y / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "j = j - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "x = x + x;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "y = y * y;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "int temp=0; if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "y = !!y;",
+    "label": "double_negation"
+  },
+  {
+    "code": "y = i; i = y;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "if(y == y) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; x = arr[y] + arr[y];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "j = j - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "j = j / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "i = i * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "i = i * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "j = j - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; i = i + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "k = k; k = k; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "x = x * x;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "y = y * y;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "j = j * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "y = y + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; k = k * k; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "if(x == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "if(j == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "int temp=0; if(x == x) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "x = (x * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "for(int y=0; y<n; y++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "i = (i * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "x = a[i] + arr[i]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; if(j == j) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "y = y * y;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "y = y * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "x = !!x;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; k = k * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "j = j + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; j = (int)j;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "int temp=0; k = (int)k;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "j = j;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "j = j - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "i = i + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "i = i * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "x = x + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "j = j + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "i = !!i;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; y = y * y;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "k = k - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "y = y;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "if(i == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "y = y - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "k = k - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "int temp=0; i = i * i;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = x + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "i = i * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "j = j / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; i = i * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "int temp=0; if(k == k) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "x = x;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "x = x * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "int temp=0; y = y + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "k = k * k;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "i = i + i;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = x - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "j = (j * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "x = x % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "j = j * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "for(int y=0; y<n; y++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "int temp=0; k = !!k;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; i = (i * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "j = j + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "x = x + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "x = x - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "j = j / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "if(x == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "y = y * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "y = y % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "k = k * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "y = y + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "i = i * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "x = x / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "k = y; y = k;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "for(int y=0; y<n; y++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "k = k % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "y = y % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "x = nums[x] + a[x];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "x = j; j = x;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "x = x * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "x = (x * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "if(k == k) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; for(int k=0; k<n; k++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "k = k - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; x = nums[y] + a[y];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "i = i - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "x = x / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "y = y + y; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "k = (k * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; y = y * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; x = x - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "if(i == i) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "j = j - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; for(int x=0; x<n; x++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "y = (y * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "i = i * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "i = i - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; y = y / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "k = k + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "j = (int)j;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "x = x;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "k = k * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "k = j; j = k;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "if(j == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "k = k - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "x = x * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "x = (x * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "k = k * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; y = (y * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "if(x == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "int temp=0; x = x * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "x = !!x;",
+    "label": "double_negation"
+  },
+  {
+    "code": "j = j / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "k = k;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "for(int i=0; i<n; i++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "i = i * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "y = y * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "x = x * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; for(int y=0; y<n; y++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "y = y + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "for(int y=0; y<n; y++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "j = (j * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "k = k - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "x = arr[k] + arr[k];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "y = y * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "k = k; k = k; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "x = x * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "x = x + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "i = (i * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "k = k - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "j = j + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "x = (x * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "y = y % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "int temp=0; k = k % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "int temp=0; x = x - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "y = y - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "i = i * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "for(int y=0; y<n; y++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "x = a[x] + nums[x]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "if(k == k) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "int temp=0; y = (int)y;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "x = x;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; if(j == j) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "k = (int)k; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "int temp=0; i = !!i;",
+    "label": "double_negation"
+  },
+  {
+    "code": "j = j % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "x = x - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "y = y;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "x = (x * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; if(x == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "int temp=0; i = i; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "k = k * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; j = j * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "y = y * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "for(int y=0; y<n; y++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "int temp=0; if(x == x) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "j = !!j;",
+    "label": "double_negation"
+  },
+  {
+    "code": "y = y * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "x = x + x;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "j = j / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "j = j % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "int temp=0; k = k * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; k = k + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "int temp=0; k = k + k;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "int temp=0; if(k == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "x = x;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "y = y - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "if(k == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "j = j - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "if(j == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "j = !!j;",
+    "label": "double_negation"
+  },
+  {
+    "code": "k = k * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "int temp=0; x = x * x; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "if(i == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "int temp=0; k = !!k; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; y = y + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "int temp=0; x = x + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "j = j * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "k = k + k; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "k = k + k;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "int temp=0; y = y * y; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "k = k;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "y = y - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "j = j * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "i = i; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "int temp=0; i = i; i = i;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; i = i * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "x = x * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "for(int i=0; i<n; i++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "y = y * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "k = !!k;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; x = x * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "y = y % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "j = j * j;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = x * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; for(int x=0; x<n; x++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "k = k / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; for(int i=0; i<n; i++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "k = (int)k;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "x = x + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "i = i + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "i = i + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; y = y / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "if(k == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "i = !!i;",
+    "label": "double_negation"
+  },
+  {
+    "code": "j = y; y = j;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "y = !!y;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "x = x % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "y = y * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(j == j) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "j = j + j; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "if(j == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "y = (int)y;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "x = arr[y] + nums[y];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "x = x * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "j = j - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "i = i - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "i = i - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "k = k + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "x = x - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; y = y + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "x = x + x;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "i = i + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "int temp=0; i = i / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; if(y == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "i = i * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "y = y + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "i = i * i;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "i = i % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "x = a[k] + a[k];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; x = arr[x] + a[x];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; x = (x * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "i = (i * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "i = i % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "int temp=0; j = j * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "x = x + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "x = x + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "int temp=0; y = y;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "if(i == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "int temp=0; for(int k=0; k<n; k++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "int temp=0; x = nums[k] + a[k];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "k = k * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "i = i / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "k = k; k = k;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "k = k - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "j = j / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "if(i == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "x = x; x = x;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "y = y * y; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "j = j * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; x = x % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "k = k + k;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "j = j * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(y == y) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "k = k * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "x = x / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "i = i - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "int temp=0; x = arr[x] + nums[x];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "if(j == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "y = y + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "if(x == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "k = k * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "k = !!k;",
+    "label": "double_negation"
+  },
+  {
+    "code": "k = k + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; x = y; y = x; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "i = i - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "i = i / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "y = (int)y; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "x = arr[j] + arr[j];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; j = j * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "x = arr[y] + arr[y]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "y = (int)y; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "j = j + j; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = x * x; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "k = k + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "k = k / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "i = i / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; x = arr[x] + nums[x]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "x = x + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "x = (x * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "k = k * k; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "k = j; j = k;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "if(x == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "int temp=0; k = (k * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "y = y + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "x = arr[i] + a[i];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "int temp=0; for(int j=0; j<n; j++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "j = j - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; k = i; i = k; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "if(x == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "i = i * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "i = i + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "int temp=0; x = x + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "k = k * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "if(x == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "i = i;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "x = nums[k] + nums[k]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "k = (k * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "k = x; x = k; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "x = x + x; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "int temp=0; j = j + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "j = j / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "x = x + x;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "y = !!y;",
+    "label": "double_negation"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "y = y + y; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "if(x == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "y = y * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "k = k * k; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "int temp=0; x = (x * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "k = k - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "i = i - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "j = j + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "j = (int)j;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "for(int y=0; y<n; y++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "i = i;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "y = y + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "y = y / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; i = i - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "y = y + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "x = x * x;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "y = y + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "j = j * j;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "if(k == k) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "x = k; k = x;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; x = x * x; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "j = j + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "int temp=0; y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "y = k; k = y; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "k = !!k;",
+    "label": "double_negation"
+  },
+  {
+    "code": "y = y;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; i = i;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "k = k + k;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "y = k; k = y;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; j = (int)j;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "j = y; y = j;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; x = a[i] + a[i]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "x = x + x; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "int temp=0; y = y / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; y = y / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "k = k * k; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "int temp=0; y = y / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "y = j; j = y; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "x = x * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "y = y * y; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "j = j / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; y = y; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "i = i - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "i = i - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; i = i * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "x = arr[y] + a[y];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; j = j;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "x = x + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; y = y / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; for(int i=0; i<n; i++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "j = j - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "k = y; y = k;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "x = x - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "x = x + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "x = x - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "k = k * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "x = a[y] + a[y];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; k = !!k;",
+    "label": "double_negation"
+  },
+  {
+    "code": "j = j;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; x = x; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "y = k; k = y;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "i = i % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "y = (y * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "k = k + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "y = y + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "j = j + j;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "i = i * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "if(x == x) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; i = i / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; x = (int)x; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "int temp=0; x = a[x] + a[x]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "y = y * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "x = x * x; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = x; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; y = y % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "j = j + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; i = i / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "i = i * i;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "i = i * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "i = i;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "x = x * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "x = !!x;",
+    "label": "double_negation"
+  },
+  {
+    "code": "k = k + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "i = (i * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "k = k % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "if(j == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "k = k - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; y = y - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "if(k == k) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "x = arr[j] + a[j];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "j = j / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "k = k / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "k = !!k; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "j = j;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "i = i * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "k = (int)k;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "i = i / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "k = k + k;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "int temp=0; if(i == i) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "y = !!y;",
+    "label": "double_negation"
+  },
+  {
+    "code": "j = (j * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; k = k * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "j = j * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "y = !!y;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "y = y + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "x = a[i] + a[i];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; if(i == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "i = i - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "y = y - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "j = j * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "if(j == j) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; i = !!i;",
+    "label": "double_negation"
+  },
+  {
+    "code": "if(k == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "int temp=0; x = nums[j] + a[j];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; k = !!k; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "x = x * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "y = (int)y;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "int temp=0; i = (int)i; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "j = j; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "if(y == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "i = x; x = i;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "y = y - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; i = i; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "j = j * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "i = i % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "x = x * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "i = !!i;",
+    "label": "double_negation"
+  },
+  {
+    "code": "j = j; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "j = j - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = x % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "x = x * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; i = i + i;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "int temp=0; x = x - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "j = j + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "x = x + x;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = !!x;",
+    "label": "double_negation"
+  },
+  {
+    "code": "x = a[k] + nums[k];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "y = y / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "y = y * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "y = y % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "j = j;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "j = (int)j;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "int temp=0; k = (k * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; k = k % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "int temp=0; k = k; k = k;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "i = !!i; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "j = j; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "i = x; x = i; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; y = y % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "if(k == k) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "k = k * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "k = i; i = k;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; j = k; k = j; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "y = y * y; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "k = k;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "k = (k * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "j = j * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "y = y * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "i = i + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "k = k + k;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "k = (int)k; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "j = (int)j;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "i = i - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "j = j - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "j = j * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; y = y - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "x = nums[k] + nums[k];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; for(int x=0; x<n; x++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "x = nums[y] + a[y]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "y = (int)y;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "k = k + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; j = j - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "j = j + j; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "i = i * i;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "k = k * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "x = x; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "i = j; j = i; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "x = (int)x;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "y = !!y; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "x = nums[i] + a[i];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "i = i * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "for(int x=0; x<n; x++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "int temp=0; k = k; k = k; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "y = y - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "i = i % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "x = x * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "int temp=0; i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "y = (y * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "x = x - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "int temp=0; x = x; x = x;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "i = i * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "x = (int)x;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "int temp=0; x = arr[y] + arr[y];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "j = j + j; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "k = k + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "x = x + x;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = x + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "k = (int)k; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "y = y * y;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "i = i * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "x = x;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "i = i + i;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "j = j; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; y = y - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "x = nums[j] + nums[j];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "if(x == x) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; k = k * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "x = arr[i] + nums[i];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "x = a[k] + nums[k];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "x = x * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "y = y % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "j = (int)j;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "k = k + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; k = !!k;",
+    "label": "double_negation"
+  },
+  {
+    "code": "j = k; k = j;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "j = y; y = j; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "k = k * k;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "y = y * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "j = j - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "y = y * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; j = j * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; j = j * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "k = k * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "y = y * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "x = x % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "x = (x * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "x = x + x; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = (int)x;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "i = (i * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "i = i * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "for(int i=0; i<n; i++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "k = k + k; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = x + x;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = x * x; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "j = y; y = j;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "k = k - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "for(int i=0; i<n; i++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "for(int y=0; y<n; y++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "int temp=0; x = nums[k] + arr[k];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; k = (int)k; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "int temp=0; j = j - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "k = k - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "x = x / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "y = y * y;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = a[i] + a[i];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "k = k + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; k = (k * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "x = (int)x;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "k = (k * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; y = y; y = y;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; x = x / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "if(y == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "if(j == j) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "if(x == x) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "k = (k * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "k = k + k; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "if(y == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "int temp=0; y = y + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; k = k;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "k = k * k;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "int temp=0; for(int k=0; k<n; k++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; j = j / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "x = a[k] + a[k]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "i = i * i;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "y = y - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "for(int i=0; i<n; i++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "int temp=0; if(x == x) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "y = y - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "k = !!k;",
+    "label": "double_negation"
+  },
+  {
+    "code": "i = (i * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "x = nums[i] + a[i];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "j = j + j;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "i = (i * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "k = k * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "k = k + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "y = !!y; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "i = !!i;",
+    "label": "double_negation"
+  },
+  {
+    "code": "x = !!x;",
+    "label": "double_negation"
+  },
+  {
+    "code": "i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "if(j == j) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; if(x == x) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "y = y * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "i = i / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "int temp=0; x = x % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "y = y - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "y = y * y;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = !!x; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "x = x;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; i = i * i; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "y = y;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "j = j % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "j = j - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "x = x + x;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = x + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "k = (k * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; x = x % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "for(int x=0; x<n; x++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "int temp=0; i = i * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "j = (j * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "j = j * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; i = i * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "j = k; k = j;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "x = x % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "int temp=0; if(x == x) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; i = i * i;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = !!x;",
+    "label": "double_negation"
+  },
+  {
+    "code": "x = x * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "i = i + i;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "j = j; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "i = i % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "for(int j=0; j<n; j++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "x = x + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "x = x - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "i = y; y = i;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; k = k * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "y = y * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "i = i + i;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "j = j * j;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "k = k; k = k;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "i = i - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "j = j % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "y = y * y;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = !!x;",
+    "label": "double_negation"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "int temp=0; if(x == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = nums[x] + arr[x]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "j = y; y = j;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; i = i * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "k = y; y = k;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "x = !!x;",
+    "label": "double_negation"
+  },
+  {
+    "code": "x = x + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "if(y == y) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "if(x == x) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "j = j - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; if(y == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "y = y * y;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "for(int x=0; x<n; x++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "x = a[k] + nums[k];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "i = i * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; x = a[x] + nums[x]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "k = x; x = k;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; y = (int)y;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "int temp=0; x = x; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; i = i * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "x = x * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "x = x + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "if(x == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "x = x % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "y = y * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "i = i * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; if(x == x) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "k = (k * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "k = k + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "y = y * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "if(i == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "y = y / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; i = i + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "y = y + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "int temp=0; y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "k = k * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; k = (int)k; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "int temp=0; x = arr[x] + nums[x];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; k = k * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "i = !!i; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "for(int x=0; x<n; x++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "x = nums[y] + arr[y];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "x = x * x;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "i = !!i; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "j = j * j;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = x * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; x = x * x;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "y = y / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "k = k % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "x = (int)x;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "y = y * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "i = (i * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "x = x * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "k = k;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "y = y + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "x = (x * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "x = x + x;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = arr[x] + arr[x];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "k = k - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; i = i - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "int temp=0; x = nums[i] + nums[i];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "x = a[j] + arr[j];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "i = i * i;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "j = j / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "j = j * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "i = (i * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "y = (y * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "i = i + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "x = (x * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "j = !!j;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; y = y % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "int temp=0; k = i; i = k;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "j = j / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "x = (x * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "k = !!k;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; y = y + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "j = j * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; i = i * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "j = j * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "int temp=0; y = x; x = y; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "k = k / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "j = j - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "if(j == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "j = !!j;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "j = k; k = j;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "y = !!y;",
+    "label": "double_negation"
+  },
+  {
+    "code": "y = y + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; y = y * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "y = y;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "j = k; k = j;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "j = j * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "i = (i * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "k = k * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "y = y / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "x = x + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "i = i + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "j = j * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "if(j == j) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "j = j * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "j = j % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "y = y % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "x = nums[i] + nums[i];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "for(int j=0; j<n; j++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "i = i + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "x = (int)x;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "if(j == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "x = y; y = x; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "k = k * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "k = k * k;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "j = j % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "k = k - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "x = x; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; for(int y=0; y<n; y++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "j = j;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "x = x * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "k = !!k;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; i = i + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "j = j + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "j = j % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "x = nums[i] + a[i];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "if(k == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "y = y * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "i = j; j = i;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "if(x == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "j = j - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; y = y * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; x = x;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "y = y + y; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "i = i - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "x = !!x;",
+    "label": "double_negation"
+  },
+  {
+    "code": "j = j * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "i = !!i;",
+    "label": "double_negation"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "if(k == k) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "y = y % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "int temp=0; x = x * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "k = k + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "i = i - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "if(y == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "if(x == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "y = y / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "k = k;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "x = x * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "int temp=0; if(x == x) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "k = k + k; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "j = k; k = j;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "i = i * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "y = y * y;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "int temp=0; y = y - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "for(int i=0; i<n; i++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "x = x + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "int temp=0; j = j + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "i = i + i;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "j = j * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "x = x * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "j = j * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "k = k % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "i = i - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "x = a[j] + a[j];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "x = x * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "j = j + j;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "y = y + y; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = !!x;",
+    "label": "double_negation"
+  },
+  {
+    "code": "x = x + x;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "int temp=0; for(int x=0; x<n; x++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "k = k + k;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "x = x + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "j = j * j;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "int temp=0; y = (int)y;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "x = nums[y] + arr[y];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; k = k * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "k = k - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "y = (y * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; i = (int)i; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "y = y + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "if(j == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "k = k + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "k = k - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "j = j + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "j = j;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; y = !!y; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "if(k == k) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "j = j * j; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = a[x] + nums[x];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "k = (k * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; j = j * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "for(int i=0; i<n; i++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "if(k == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "y = y + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "j = j + j;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "k = k * k; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "if(x == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "x = k; k = x; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "i = i % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "x = x - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; x = arr[i] + arr[i]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "for(int x=0; x<n; x++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "k = k - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "j = j + j;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "if(j == j) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "j = j * j;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "if(j == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "int temp=0; if(y == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "int temp=0; k = k + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "int temp=0; y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "j = x; x = j;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "y = !!y;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; k = k * k;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "y = y;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "j = j % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "if(j == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "k = !!k;",
+    "label": "double_negation"
+  },
+  {
+    "code": "i = i % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "if(j == j) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "if(k == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "x = arr[k] + a[k];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "x = j; j = x;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; j = j - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "x = x / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; k = k + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "k = k - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "y = !!y;",
+    "label": "double_negation"
+  },
+  {
+    "code": "x = x * x; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "if(j == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "k = k * k;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "k = k - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "k = k; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "if(x == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "if(k == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "j = j / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "x = x - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "k = k * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "y = y - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "j = !!j;",
+    "label": "double_negation"
+  },
+  {
+    "code": "k = k + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "i = i; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "j = (int)j; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "x = a[x] + a[x];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "i = i % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "j = (int)j;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "k = k - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "i = i + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "i = (i * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "i = k; k = i;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; k = k - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "k = (int)k; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "y = y * y;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "int temp=0; j = j * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "k = (k * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "i = i - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "for(int x=0; x<n; x++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "i = i + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; j = i; i = j;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; x = a[y] + arr[y]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; k = k - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; x = x;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; k = k * k;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = x * x; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = x * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "y = y * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "j = j + j; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "int temp=0; i = !!i;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; if(k == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "k = k + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "int temp=0; if(k == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "if(j == j) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; i = !!i;",
+    "label": "double_negation"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "int temp=0; j = j / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; x = x * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "y = y * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(y == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "j = j / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "i = i;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "y = y / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; i = i;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; k = k / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "y = y % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "j = !!j;",
+    "label": "double_negation"
+  },
+  {
+    "code": "if(i == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "j = j * j; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "for(int j=0; j<n; j++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "x = (int)x; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "i = i + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "j = j % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "i = i * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "int temp=0; if(j == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "x = a[k] + arr[k];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; k = k + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "y = y % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "int temp=0; x = x + x; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; i = i - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "if(j == j) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "y = y / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "i = !!i; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "if(k == k) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; j = (j * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "j = j * j;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "y = y * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "j = j + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "i = i;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "y = y + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "for(int i=0; i<n; i++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "x = x * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "x = x * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "i = i * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "x = x + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "x = x + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "i = i * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "y = y * y;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "i = i * i;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "k = !!k;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; if(i == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "k = j; j = k;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "i = i + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "for(int j=0; j<n; j++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "y = y / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "y = y + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "x = x + x;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = !!x; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "if(k == k) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "for(int y=0; y<n; y++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "i = (i * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "if(y == y) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "j = j % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "if(k == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "k = k - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "j = j - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "i = i + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "x = (int)x;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "for(int i=0; i<n; i++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "int temp=0; if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "y = y - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "x = x / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "i = x; x = i; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "k = k - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "j = (j * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "x = arr[k] + nums[k];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; k = k + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "if(y == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "j = j;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "if(y == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; y = y + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "j = j - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "if(j == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "x = x + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "j = !!j;",
+    "label": "double_negation"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "y = y / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "y = !!y;",
+    "label": "double_negation"
+  },
+  {
+    "code": "for(int y=0; y<n; y++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "y = y - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "i = i * i;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = x + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "y = y * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "for(int i=0; i<n; i++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "int temp=0; k = k * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "k = k + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "x = arr[y] + nums[y]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "i = !!i; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "k = k * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "j = j * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "j = j - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "x = x;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "for(int y=0; y<n; y++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "k = y; y = k; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "k = k % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "int temp=0; k = k / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "k = !!k;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; j = j + j;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "j = j % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "if(i == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "x = x * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "x = nums[i] + arr[i];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "i = k; k = i;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "y = y;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "x = x * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "y = y;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "for(int x=0; x<n; x++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "j = k; k = j; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "j = (j * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "x = x - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "j = j % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "x = nums[y] + a[y]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; if(x == x) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "i = i;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "x = (int)x;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "k = k - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "i = i - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; y = y + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "for(int x=0; x<n; x++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "y = (int)y; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "i = i * i; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "i = i / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "j = j / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "k = k - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "i = !!i;",
+    "label": "double_negation"
+  },
+  {
+    "code": "y = y;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "j = j * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "y = y + y; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "y = y;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "j = !!j; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "j = j * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; j = j + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "y = y;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "i = i * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "x = x % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "if(y == y) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "x = arr[y] + a[y]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "k = k - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "k = k - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; k = k * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "x = x * x;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "i = i + i;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "int temp=0; y = !!y; // debug",
+    "label": "double_negation"
+  },
+  {
+    "code": "j = j * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; x = x * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "j = j % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "k = k * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(x == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "int temp=0; k = k + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "j = j - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "j = j * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "k = k + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; k = k + k;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "i = i * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "k = k % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "for(int i=0; i<n; i++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "k = k * k; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "i = i;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "int temp=0; i = i - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "i = i * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "j = j - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "if(j == j) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; i = i * i;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "y = y + y; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "j = j; j = j; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "k = k + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "x = x * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "i = i - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "x = x - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "for(int y=0; y<n; y++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "k = k + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "k = k * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; j = j - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "i = i / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "k = k * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; x = arr[k] + nums[k]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "k = k * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "x = x - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "y = (y * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "i = (int)i; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "k = k * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "x = x - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "j = j;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "x = nums[i] + nums[i];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "x = x + x; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "if(y == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "j = j + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "i = i; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "i = i * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "y = y % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "int temp=0; for(int j=0; j<n; j++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "y = (y * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "for(int k=0; k<n; k++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "y = y * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "k = k % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "i = i / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "x = x * x; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "i = i * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "y = y; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "k = k * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "x = !!x;",
+    "label": "double_negation"
+  },
+  {
+    "code": "y = y * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "y = y * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "i = i % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "k = k - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "x = a[y] + nums[y]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "x = x + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "j = j * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; i = i + i; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = x * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "i = !!i;",
+    "label": "double_negation"
+  },
+  {
+    "code": "x = x * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "y = y - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "y = y + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "k = y; y = k; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; x = x - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "j = j; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "y = !!y;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; if(j == j) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "y = y + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "x = a[x] + nums[x];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "x = x / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "if(y == y) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "k = !!k;",
+    "label": "double_negation"
+  },
+  {
+    "code": "x = k; k = x;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "j = j + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "int temp=0; k = (k * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "k = k % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "j = !!j;",
+    "label": "double_negation"
+  },
+  {
+    "code": "y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "j = j * j;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "j = j;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "if(x == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "k = k + 0; // debug",
+    "label": "add_zero"
+  },
+  {
+    "code": "if(y == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "y = y * y;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "k = k + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "k = (int)k;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "i = i - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "if(x == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "k = !!k;",
+    "label": "double_negation"
+  },
+  {
+    "code": "y = y + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "i = i * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "int temp=0; k = k * k;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "y = y * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "k = k * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "for(int x=0; x<n; x++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "j = j + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "y = y + y; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "if(k == k) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "k = k * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "i = i / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "i = i - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "x = a[x] + nums[x]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "k = k; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "x = (x * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "y = y * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "x = nums[y] + arr[y];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "j = j + j;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = x;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "y = y * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "i = i % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; if(k == k) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "j = j + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "x = y; y = x; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "i = i * i; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "y = y * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(j == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "if(1 == 1) x = 5; // debug",
+    "label": "always_true"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "k = k; k = k;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "x = a[k] + arr[k];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; if(x == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "j = j % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "int temp=0; k = k + k;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "int temp=0; x = x - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; j = y; y = j;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "j = j / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "y = y * y; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "j = j * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; x = x % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "j = (j * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; i = i + i;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = x + x;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "k = k * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; x = j; j = x;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; k = k * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "y = y + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "int temp=0; x = x * x;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = x - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "i = i % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "k = k * k; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "i = i / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "i = i; i = i; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "int temp=0; j = !!j;",
+    "label": "double_negation"
+  },
+  {
+    "code": "j = j / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; i = i + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; if(x == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "y = (y * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; i = !!i;",
+    "label": "double_negation"
+  },
+  {
+    "code": "j = j + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "int temp=0; j = !!j;",
+    "label": "double_negation"
+  },
+  {
+    "code": "x = x * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; if(i == i) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "x = x; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; i = i % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "j = j * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; i = i * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "i = i - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "for(int y=0; y<n; y++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "if(x == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "int temp=0; x = x * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; if(j == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "y = x; x = y;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "i = i * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "int temp=0; i = i - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "k = y; y = k;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; x = a[y] + a[y];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "if(y == y) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; j = j - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "int temp=0; i = (i * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "int temp=0; i = i * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "k = k / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; i = (i * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "j = j * j;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = i; i = x;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "y = (y * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "x = x / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "if(j == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "x = x % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "k = k / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "k = k % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "int temp=0; k = k + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "x = (x * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "x = x * x;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "k = (k * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "if(k == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "x = !!x;",
+    "label": "double_negation"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "y = y * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "y = y + y;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "j = j;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "y = y;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "k = (int)k;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "int temp=0; x = arr[y] + arr[y];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "x = x * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; y = y * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "y = y * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "x = x / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "if(x == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "x = (int)x;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "y = y * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "y = y * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "k = k * k; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "for(int i=0; i<n; i++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "for(int i=0; i<n; i++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "i = !!i;",
+    "label": "double_negation"
+  },
+  {
+    "code": "y = (y * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; j = j + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; k = k * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "for(int x=0; x<n; x++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "x = x - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "if(x == x) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "k = k % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "x = (int)x;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "k = k - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "k = k + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "int temp=0; j = j % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "i = i % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "int temp=0; k = (int)k;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "j = j + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "x = x * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "j = j * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "i = i % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "x = x + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "j = j + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "x = nums[i] + a[i];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "x = (x * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "j = j * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "y = y - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "i = i / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; if(k == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "y = y * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; y = y + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "i = i;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "int temp=0; if(j == j) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "if(y == y) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; x = x - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "int temp=0; y = (int)y;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "x = x * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "x = x * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "x = (int)x;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "j = j * j;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "x = a[x] + a[x]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "y = y; y = y; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "x = a[y] + arr[y];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "k = k * k; // debug",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "int temp=0; i = i / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "x = a[i] + arr[i]; // debug",
+    "label": "repeated_access"
+  },
+  {
+    "code": "j = (j * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "y = y - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "if(j == j) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "k = k + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "i = i / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "j = j + j;",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "int temp=0; x = a[x] + a[x];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "i = i + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "i = i * i;",
+    "label": "power_two_naive"
+  },
+  {
+    "code": "for(int y=0; y<n; y++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "j = j + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "x = a[j] + nums[j];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; i = i + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "x = x - 1;",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "if(j == j) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "for(int j=0; j<n; j++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "int temp=0; i = (i * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "int temp=0; x = x % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "i = i * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "int temp=0; j = j;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "k = k;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "j = j / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; i = i - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "x = x + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "int temp=0; y = y - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "j = (j * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "i = i * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "y = y * 1; // debug",
+    "label": "multiply_one"
+  },
+  {
+    "code": "j = j * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "int temp=0; i = i; // debug",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "x = x % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "j = j % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "if(y == y) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "y = y * 0;",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "j = j + j; // debug",
+    "label": "repeated_addition"
+  },
+  {
+    "code": "int temp=0; j = (j * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "x = x / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "y = y + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "y = y / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "j = (j * 2) / 2; // debug",
+    "label": "redundant_math"
+  },
+  {
+    "code": "if(k == k) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "if(0 == 1) x = 5; // debug",
+    "label": "always_false"
+  },
+  {
+    "code": "y = (int)y;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "i = i * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "k = k;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "k = j; j = k; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "k = k / 2;",
+    "label": "div_by_two"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "if(i == true) return true; // debug",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "i = i * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "for(int x=0; x<n; x++) {} // debug",
+    "label": "useless_loop"
+  },
+  {
+    "code": "if(j == j) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; i = i - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "if(y == y) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "x = nums[y] + nums[y];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; k = k + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "j = j + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "y = k; k = y;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "j = j / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "int temp=0; y = y * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; x = arr[k] + arr[k];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "int temp=0; if(1 == 1) x = 5;",
+    "label": "always_true"
+  },
+  {
+    "code": "j = j % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "y = y - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "i = i + 1;",
+    "label": "slow_increment"
+  },
+  {
+    "code": "j = j;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "i = i % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "y = y - 0; // debug",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "int temp=0; y = y % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "if(0 == 1) x = 5;",
+    "label": "always_false"
+  },
+  {
+    "code": "y = y + 1; // debug",
+    "label": "slow_increment"
+  },
+  {
+    "code": "i = (int)i;",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "if(y == y) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "j = (j * 2) / 2;",
+    "label": "redundant_math"
+  },
+  {
+    "code": "j = j + 0;",
+    "label": "add_zero"
+  },
+  {
+    "code": "i = j; j = i; // debug",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "j = x; x = j;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; j = (int)j; // debug",
+    "label": "unnecessary_cast"
+  },
+  {
+    "code": "y = y % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "j = j * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "for(int y=0; y<n; y++) {}",
+    "label": "useless_loop"
+  },
+  {
+    "code": "i = i % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "if(k == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "i = i * 2; // debug",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "y = i; i = y;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "int temp=0; x = x - 0;",
+    "label": "subtract_zero"
+  },
+  {
+    "code": "k = !!k;",
+    "label": "double_negation"
+  },
+  {
+    "code": "y = y % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "i = i - 1; // debug",
+    "label": "slow_decrement"
+  },
+  {
+    "code": "k = i; i = k;",
+    "label": "unnecessary_temp"
+  },
+  {
+    "code": "if(k == k) return 1; // debug",
+    "label": "self_compare"
+  },
+  {
+    "code": "int temp=0; j = j * 0; // debug",
+    "label": "zero_multiply"
+  },
+  {
+    "code": "y = y * 1;",
+    "label": "multiply_one"
+  },
+  {
+    "code": "int temp=0; y = y;",
+    "label": "redundant_assign"
+  },
+  {
+    "code": "if(j == true) return true;",
+    "label": "redundant_condition"
+  },
+  {
+    "code": "int temp=0; y = y * 2;",
+    "label": "mul_by_two"
+  },
+  {
+    "code": "j = j / 2; // debug",
+    "label": "div_by_two"
+  },
+  {
+    "code": "i = !!i;",
+    "label": "double_negation"
+  },
+  {
+    "code": "int temp=0; y = y % 2; // debug",
+    "label": "modulo_two"
+  },
+  {
+    "code": "if(i == i) return 1;",
+    "label": "self_compare"
+  },
+  {
+    "code": "k = k % 2;",
+    "label": "modulo_two"
+  },
+  {
+    "code": "x = arr[k] + nums[k];",
+    "label": "repeated_access"
+  },
+  {
+    "code": "k = k + 0;",
+    "label": "add_zero"
+  }
+]
